@@ -15,7 +15,9 @@
     "incremental": true,
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    //for jest
+    "types": ["jest", "@testing-library/jest-dom","node"]
   },
   "include": [
     "next-env.d.ts",
